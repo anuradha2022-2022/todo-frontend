@@ -1,18 +1,18 @@
 import React from "react";
-import "./Display.css";
+import "./display.css";
 
- const Display = (props) => {
+const Display = (props) => {
   return (
-    <div className="Row">
-      <div className="Column1">
+    <div className="row">
+      <div className="container">
         <ul>
           <li>
-            <p id="Rows">{props.input}</p>
+            <p id="input">{props.input}</p>
           </li>
 
           <button
-            id="buttons"
-            onClick={() => {
+            id="button"
+            onClick={ () => {
               props.onSelect(props.id);
             }}
           >
@@ -23,6 +23,4 @@ import "./Display.css";
     </div>
   );
 };
-export default Display
-
-
+export default Display;
