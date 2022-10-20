@@ -1,0 +1,32 @@
+#input {
+  position: absolute;
+  margin: auto 30px 30px auto;
+  font-size: 24px;
+  color: rgb(33, 30, 30);
+}
+
+#button {
+  height: 25px;
+  width: 25px;
+  box-shadow: 2px 2px 2px 2px #05050595;
+  color: rgba(0, 0, 0, 0.631);
+  font-size: 18px;
+  background-color: #f55d71c9;
+  border-radius: 30px;
+  border: 0px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: auto 30px 50px 250px;
+}
+
+li {
+  margin: 1px 50px 40px 65px;
+  line-height: 2px;
+  font-size: 32px;
+}
+
+ul {
+  display: flex;
+  line-height: 1%;
+  white-space: pre-wrap;
+}

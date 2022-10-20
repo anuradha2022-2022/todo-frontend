@@ -1,0 +1,39 @@
+.body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f8ceec;
+}
+
+.box {
+  position: absolute;
+  width: 35vw;
+  height: 65vh;
+  margin: 70px 450px;
+  background-color: rgb(249, 250, 244);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.407);
+}
+
+.task-input {
+  height: 50px;
+  width: 280px;
+  padding: 0 20px;
+  margin: 40px;
+  border: 0px;
+  box-shadow: 4px 2px 2px 4px #05050595;
+  color: black;
+  font-size: 18px;
+  background-color: #f8ceec59;
+}
+
+#add-me {
+  height: 50px;
+  width: 50px;
+  box-shadow: 2px 2px 2px 2px #05050595;
+  color: rgba(0, 0, 0, 0.558);
+  font-size: 18px;
+  background-color: #47eb2a59;
+  border-radius: 10px;
+  border: 0px;
+  cursor: pointer;
+  font-weight: bold;
+}
